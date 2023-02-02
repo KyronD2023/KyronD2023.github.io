@@ -7,5 +7,42 @@ body{
 a:focus, a:hover{
    font-style: italic;
    color: orange;
-    
+
+}
+
+header h1{
+        font-size: 175%;
+        color: maroon;
+        text-indent: 30px; 
+}
+header h2{
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header img{
+    float: left;
+}
+
+.shadow{    
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+main {
+    clear: left;
+}
+
+main h3{
+    margin-top: 3em;
+    font-size: 105%;
+
+}
+
+#list{
+    line-height: 1.5em;
+}
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;
 }
