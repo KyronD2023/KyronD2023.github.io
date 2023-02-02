@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+}
+
+a:focus, a:hover{
+   font-style: italic;
+   color: orange;
+    
+}
