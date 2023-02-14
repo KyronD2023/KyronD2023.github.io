@@ -12,8 +12,7 @@ body{
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 5px 5px 0 0;
-    
+    box-shadow: 5px 5px 0 0; 
 }
 
 a:focus, a:hover{
@@ -33,9 +32,9 @@ header h2{
     text-indent: 30px;
 }
 
-
 header img{
     float: left;
+    margin:auto
 }
 
 .shadow{    
