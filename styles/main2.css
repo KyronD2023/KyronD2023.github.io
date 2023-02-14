@@ -33,7 +33,7 @@ header h2{
 }
 
 header img{
-    
+    float: left;
     margin-right: auto;
 }
 
