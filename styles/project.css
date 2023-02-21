@@ -24,6 +24,7 @@ a:focus, a:hover{
 }
 
 header h1{
+    border-bottom: 2px solid maroon;
         font-size: 175%;
         color: maroon;
         text-indent: 30px; 
@@ -89,4 +90,5 @@ p.fixed{
     right: 0;
     border: 3px solid darkgreen;
     background-color: lightgreen;
+    padding: 1.5em;
 }
