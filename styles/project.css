@@ -1,0 +1,54 @@
+html{
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0; 
+}
+
+a:focus, a:hover{
+   font-style: italic;
+   color: orange;
+   border: 3px blue;
+   border-style: dotted solid;
+
+}
+
+header h1{
+        font-size: 175%;
+        color: maroon;
+        text-indent: 30px; 
+}
+header h2{
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header img{
+    float: left;
+   
+}
+
+.shadow{    
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
+
+article{
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted teal;
+    column-gap: 2em;
+    margin-left: 2em;
+}
