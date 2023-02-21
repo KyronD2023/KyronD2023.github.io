@@ -71,5 +71,18 @@ aside{
     width: 20%;
     float: right;
     background-color: #ffebc6;
-    padding: ;
+    padding-left: 2em;
+}
+
+footer{
+    clear: both;
+    border-top: 2px solid maroon;
+}
+p.fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
 }
