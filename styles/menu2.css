@@ -17,6 +17,12 @@ html{
     background-image: linear-gradient(to left, white 0%, #8adafa 100%);
 
 }
+
+a:focus, a:hover{
+    border: 3px blue;
+    border-style: dotted solid;
+}
+
 article h1{
     border-bottom: 3px solid blue;
     color: blue;
