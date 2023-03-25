@@ -24,14 +24,19 @@ article img{
     float: left;
 }
 
+article{
+    width: 75%;
+}
+
+article p::first-letter{
+    font-weight: bold;
+}
+
 body{
     width: 95%;
     margin: 15px auto;
 }
 
-article{
-    width: 75%;
-}
 
 aside ol{
     width: 20%;
