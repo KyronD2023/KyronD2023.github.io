@@ -13,11 +13,11 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
-header h1{
+article h1{
     color: blue;
 }
 
-header h2{
+article h2{
     color: blue;
 }
 
