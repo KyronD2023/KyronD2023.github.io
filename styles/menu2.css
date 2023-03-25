@@ -62,3 +62,12 @@ aside ol{
 aside ul{
     list-style-type: square;
 }
+
+footer{
+    clear: both;
+    border-top: 2px solid blue;
+}
+
+footer p.copyright{
+    text-align: center;
+}
