@@ -14,7 +14,7 @@
 #nav_menu ul li a.current { color: yellow; }
 
 html{
-    background-image: linear-gradient(to left, blue 0%, #8adafa 100%);
+    background-image: linear-gradient(to left, white 0%, #8adafa 100%);
 
 }
 article h1{
