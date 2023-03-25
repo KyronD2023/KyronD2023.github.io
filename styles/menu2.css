@@ -13,6 +13,10 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
+html{
+    background-image: linear-gradient(to left, blue 0%, #8adafa 100%);
+
+}
 article h1{
     color: blue;
 }
@@ -37,6 +41,7 @@ article p::first-letter{
 body{
     width: 95%;
     margin: 15px auto;
+    border-radius: 25px;
 }
 
 
