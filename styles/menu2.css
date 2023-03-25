@@ -31,6 +31,7 @@ article{
 article p::first-letter{
     font-weight: bold;
     font-size: 2em;
+    font-style: italic;
 }
 
 body{
