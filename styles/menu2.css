@@ -10,7 +10,6 @@
     color: white;
     font-weight: bold;
     border-right: 2px solid white; 
-    border-bottom: 3px solid blue;
 }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
@@ -21,7 +20,7 @@ html{
 }
 
 article h1{
-   
+    border-top: 3px solid blue;
     color: blue;
 }
 
