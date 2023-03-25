@@ -63,7 +63,7 @@ aside ul{
     list-style-type: square;
 }
 
-aside ol.fixed{
+aside.fixed{
     width: auto;
     position: fixed;
     bottom: 35%;
