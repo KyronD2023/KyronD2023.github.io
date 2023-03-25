@@ -20,11 +20,6 @@ html{
 
 }
 
-a:focus, a:hover{
-    border: 3px blue;
-    border-style: dotted solid;
-}
-
 article h1{
    
     color: blue;
@@ -38,7 +33,13 @@ article img{
 }
 
 article{
+    clear: left;
     width: 75%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
 article p::first-letter{
