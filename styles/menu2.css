@@ -20,6 +20,9 @@ article h1{
 article h2{
     color: blue;
 }
+article img{
+    float: left;
+}
 
 body{
     width: 95%;
