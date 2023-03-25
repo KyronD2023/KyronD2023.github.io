@@ -24,4 +24,8 @@ article{
 
 aside ol{
     width: 20%;
+    list-style-type: upper-roman;
+}
+aside ul{
+    list-style-type: square;
 }
