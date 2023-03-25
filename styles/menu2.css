@@ -50,9 +50,11 @@ article p::first-letter{
 body{
     width: 95%;
     margin: 15px auto;
-    border: 1px solid black;
     border-radius: 25px;
     background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0; 
 }
 
 aside ol{
