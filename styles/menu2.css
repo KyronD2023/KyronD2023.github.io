@@ -56,6 +56,15 @@ body{
     border-radius: 25px;
     box-shadow: 5px 5px 0 0; 
 }
+aside.fixed{
+    width: auto;        /*changing whole page?*/
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid blue;
+    background-color: skyblue;
+    padding: 1.5em;
+}
 
 aside ol{
     width: 20%;
