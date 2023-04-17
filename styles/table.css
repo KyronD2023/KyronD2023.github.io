@@ -36,9 +36,12 @@ html, body {
     }
 
     table.third th{
+        border-top: orangered;
         background-color: lightgreen;
+        border-bottom: orangered;
     }
     table.third td{
+        padding: 0.4em;
         vertical-align: left;
     }
     
