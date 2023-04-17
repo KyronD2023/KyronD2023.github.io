@@ -38,4 +38,7 @@ html, body {
     table.third th{
         background-color: lightgreen;
     }
+    table.third td{
+        vertical-align: left;
+    }
     
