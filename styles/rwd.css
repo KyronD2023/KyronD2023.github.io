@@ -92,8 +92,16 @@ html, body {
 
         .menu a:hover, a.current {
             text-decoration: underline;
+            color: purple;
         }
         
         article{
-            
+            padding: 0.1em;
+
+        }
+        article h2{
+            font-size: 1.25em;
+        }
+        article p{
+            font-size: 1em;
         }
