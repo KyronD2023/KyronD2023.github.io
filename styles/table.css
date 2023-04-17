@@ -42,7 +42,7 @@ html, body {
 
         background-color: lightgreen;
     }
-    table.third td{
+    table.third th, table.third td{
         padding: 0.4em;
         vertical-align: top;
     }
