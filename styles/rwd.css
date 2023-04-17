@@ -84,12 +84,16 @@ html, body {
         margin-top: 0px;
         transform: rotate(-405deg);
         }
+        /*----end of menu*/
 
-        section {
+        .section {
             text-decoration: none; color: white;
         }
 
-        menu {
-            
+        .menu a:hover, a.current {
+            text-decoration: underline;
         }
         
+        article{
+            
+        }
