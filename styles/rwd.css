@@ -84,4 +84,12 @@ html, body {
         margin-top: 0px;
         transform: rotate(-405deg);
         }
+
+        section {
+            text-decoration: none; color: white;
+        }
+
+        menu {
+        
+        }
         
