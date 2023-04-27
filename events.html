@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Event Tracker</title>
+    <link rel="stylesheet" href="styles/project.css">
 </head>
 <body>
-	<h1>Upcoming Events</h1>
-	<ul>
-		<li>Meeting with clients - May 1, 2023</li>
-		<li>Team building event - May 15, 2023</li>
-		<li>Product launch - June 1, 2023</li>
-		<li>Conference - July 15-17, 2023</li>
-	</ul>
+	<h1>Event Tracker</h1>
+	<form>
+		<label for="event-name">Event Name:</label>
+		<input type="text" id="event-name" name="event-name"><br><br>
+		<label for="event-date">Event Date:</label>
+		<input type="date" id="event-date" name="event-date"><br><br>
+		<label for="event-description">Event Description:</label><br>
+		<textarea id="event-description" name="event-description" rows="4" cols="50"></textarea><br><br>
+		<button type="submit">Add Event</button>
+	</form>
+</body>
+</html>
 
-<table>
-    <tr>
-      <th>Event</th>
-      <th>Date</th>
-      <th>Location</th>
-    </tr>
-    <tr>
-      <td>Meeting with clients</td>
-      <td>May 1, 2023</td>
-      <td>123 Main St, Anytown, USA</td>
-    </tr>
-    <tr>
-      <td>Team building event</td>
-      <td>May 15, 2023</td>
-      <td>456 Oak Ave, Anytown, USA</td>
-    </tr>
-    <tr>
-      <td>Product launch</td>
-      <td>June 1, 2023</td>
-      <td>789 Maple Dr, Anytown, USA</td>
-    </tr>
-    <tr>
-      <td>Conference</td>
-      <td>July 15-17, 2023</td>
-      <td>XYZ Conference Center, Anytown, USA</td>
-    </tr>
-  </table>
+
+
+
+
+
+
+
+
 </body>
   </html>
